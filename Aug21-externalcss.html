@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coffeee class - 14th Aug '22</title>
+        <link rel="stylesheet" href="./css/style-aug21.css" />
+    </head>
+    <body>
+        <h1>Learn tables and forms</h1>
+
+        <div>
+            <h2>Learn Tables</h2>
+
+            <table>
+                <caption>
+                    Friends information
+                </caption>
+                <tr>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+
+                <tr>
+                    <td>Vikas Ranjan</td>
+                    <td>Gurgaon</td>
+                    <td>489089080</td>
+                    <td>vikas@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Anil Kumar</td>
+                    <td>Patna</td>
+                    <td>9049843</td>
+                    <td>anil@yahoo.com</td>
+                </tr>
+
+                <tr>
+                    <td>Saurabh Chaudhary</td>
+                    <td>Hyderabad</td>
+                    <td>99783211</td>
+                    <td>saurabh@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Monu Singhi</td>
+                    <td>Chennai</td>
+                    <td>17483843</td>
+                    <td>monu@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <div>
+            <h2>Learn HTML forms</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <div>
+                        <label>
+                            Enter your name:
+                            <input
+                                type="text"
+                                placeholder="e.g. Vikas Ranjan"
+                                required
+                                value="Anil Kumar"
+                                disabled
+                            />
+                        </label>
+                    </div>
+                    <br />
+
+                    <div>
+                        <label>
+                            Enter your password:
+                            <input
+                                type="password"
+                                placeholder="e.g. minimum 8 characters"
+                                required
+                            />
+                        </label>
+                    </div>
+
+                    <br />
+                    <div>
+                        <label>
+                            Enter your date of birth:
+                            <input type="date" />
+                        </label>
+                    </div>
+
+                    <br />
+
+                    <div>
+                        <label>
+                            Enter your gender:
+
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="Male"
+                                />
+                                Male
+                            </label>
+
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="Female"
+                                />
+                                Female
+                            </label>
+
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="Others"
+                                />
+                                Others
+                            </label>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact information</legend>
+                    <div>
+                        <label
+                            >Enter your email:
+                            <input
+                                type="email"
+                                placeholder="e.g. vikas@gmail.com"
+                                required
+                            />
+                        </label>
+                    </div>
+                    <br />
+                    <div>
+                        <label>
+                            Enter your phone number
+                            <input
+                                type="number"
+                                placeholder="e.g. 893748700"
+                                required
+                                disabled
+                            />
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Location details</legend>
+
+                    <div>
+                        <label
+                            >Select State:
+                            <select name="state">
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="West Bengal">West Bengal</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Madhya Pradesh">
+                                    Madhya Pradesh
+                                </option>
+                            </select>
+                        </label>
+                    </div>
+                    <br />
+                    <div>
+                        <label>
+                            Select your preferred city:
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="center"
+                                    value="Delhi"
+                                    disabled
+                                />
+                                Delhi
+                            </label>
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="center"
+                                    value="Mumbai"
+                                />
+                                Mumbai
+                            </label>
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="center"
+                                    value="Chennai"
+                                />
+                                Chennai
+                            </label>
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="center"
+                                    value="Ahmedabad"
+                                />
+                                Ahmedabad
+                            </label>
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="center"
+                                    value="Kolkata"
+                                />
+                                Kolkata
+                            </label>
+
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="center"
+                                    value="Hyderabad"
+                                />
+                                Hyderabad
+                            </label>
+                        </label>
+                    </div>
+
+                    <br />
+                    <div>
+                        <label
+                            >Enter your address:
+                            <textarea
+                                id="address"
+                                rows="10"
+                                cols="50"
+                                placeholder="Enter adddress"
+                                required
+                            ></textarea>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <br />
+
+                <div>
+                    <input type="submit" />
+                    <input type="reset" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
