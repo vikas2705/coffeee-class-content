@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(blue, yellow, green,red,purple,grey,brown);
+}
+
+body{
+    background-image: radial-gradient(blue, yellow, green,red,purple,grey,brown);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center center;
+}
