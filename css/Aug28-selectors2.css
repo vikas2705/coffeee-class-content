@@ -1,0 +1,47 @@
+* {
+    color: brown;
+    background-color: aqua;
+}
+
+h1, span{
+    background-color: beige;
+    color: purple;
+}
+
+
+#specific-text, .important-text{
+    font-weight: bold;
+    color: orange;
+    background-color: black;
+}
+
+span{
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+a[target] {
+    color:darkred;
+    background-color: pink;
+}
+
+a[target="_blank"] {
+    color:darkred;
+    background-color: pink;
+}
+
+[title~="flower"] {
+    text-decoration: line-through;
+}
+
+[title|="flower"] {
+   text-transform: uppercase;
+}
+
+[title^="flower"] {
+    background-color: olive;
+ }
+
+ [title$="flower"] {
+    color: white;
+ }

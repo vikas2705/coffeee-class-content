@@ -1,0 +1,26 @@
+h1{
+    background-color: yellow;
+}
+
+body{
+    background-color: rgb(255, 0, 0);
+   min-height: 100vh;
+    background-image: url('../media/images/img_tree.gif'), url('../media/images/paper.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+span{
+    background-color: #00FF00;
+}
+
+div {
+    color:blue
+}
+
+p{
+    color: black;
+    font-weight: 600;
+}
