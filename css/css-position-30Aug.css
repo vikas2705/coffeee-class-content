@@ -1,0 +1,46 @@
+#static{
+    position: static;
+
+    left: 100px;
+    top: 50px;
+}
+
+#relative{
+    position: relative; 
+    /*relative with respect to to its original/default position*/
+    left: 100px;
+    top: 50px;
+}
+
+#fixed{
+    position: fixed;
+    /*position with respect to the screen/viewport. wont scroll with page */
+    bottom: 30px;
+    right: 30px;
+}
+
+#absolute{
+    position: absolute;
+    /*position with respect to the nearest positioned parent / webpage. it will scroll with webopage */
+    bottom: 100px;
+    right: 100px;
+}
+
+.parent{
+    height: 600px;
+    width: 900px;
+    border: 2px solid brown;
+    position: relative;
+}
+
+.child{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-weight: 600;
+    color:green
+}
+
+h2{
+    border: 2px solid green;
+}

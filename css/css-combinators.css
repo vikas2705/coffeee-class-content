@@ -1,0 +1,19 @@
+/*descendant selector*/
+div p{
+    background-color: aqua;
+}
+
+/*child elements*/
+div > p{
+    color: red;
+}
+
+/* adjacent sibling */
+h2 + p{
+    font-weight: bold;
+}
+
+/* general sibling */
+h2 ~ p {
+    text-decoration: line-through;
+}

@@ -1,0 +1,63 @@
+h1, h2, div, p{
+    background-color: yellow;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 50px;
+    display: inline;
+}
+
+/*
+Block elements in HTML :
+-- occupy all width given to them
+-- donot let any other element n same line
+-- you can give margin top and bottom to them
+-- you can give height and width to them
+-- e.g. h1, h2.. h6, div, p, section
+*/
+
+span{
+    background-color: blue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 50px;
+    width:200px;
+    display: block;
+}
+a{
+    background-color: green;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 50px;
+    display: inline-block;
+}
+input{
+    background-color: brown;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 50px;
+}
+
+#a2{
+    display: none; /*hides the element*/
+  /*  visibility: hidden; */
+}
+
+/*
+Inline elements in HTML :
+-- occupy width only required for the content
+-- occupies same line with other  elements if space available
+-- you cannot give margin top and bottom to them
+-- you can not give height and width to them
+-- e.g. span, a
+*/
+
+
+/* Inline-block elements
+-- occupy width only required for the content
+-- occupies same line with other  elements if space available
+-- you can give margin top and bottom to them
+-- you can give height and width to them
+-- e.g. img, input
+
+
+*/
