@@ -26,6 +26,11 @@
     right: 100px;
 }
 
+#sticky{
+    position: sticky;
+    top:50px;
+}
+
 .parent{
     height: 600px;
     width: 900px;
