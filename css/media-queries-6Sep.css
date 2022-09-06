@@ -1,0 +1,36 @@
+h1 {
+     color: red;
+}
+
+body {
+     background-color: lightblue;
+}
+
+h2{
+    display: none;
+}
+
+@media only screen and (min-width: 900px) {
+    h1 {
+            color: blue;
+    }
+    body {
+        background-color: white;
+    }
+    h2 {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    h1 {
+        color: brown;
+    }
+
+    body {
+        background-color: yellow;
+    }
+        h2 {
+            display: block;
+        }
+}

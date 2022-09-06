@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+}
+
+.box{
+    border: 2px solid red;
+    height: 100px;
+    width: 48%;
+}
+
+.row-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+/*tablet screen*/
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .box {
+            width: 32%;
+    }
+}
+
+/** laptop screen*/
+@media only screen and (min-width: 900px) {
+    .box {
+        width: 16%;
+    }
+}
+
+/** very small screen*/
+@media only screen and (max-width: 400px) {
+    .box {
+        width: 98%;
+    }
+}
