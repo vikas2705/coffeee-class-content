@@ -1,5 +1,3 @@
-alert("This is external javascript");
-
 // variables are containers to store some data/value
 
 // data_type variable_name = value/data
@@ -156,7 +154,7 @@ typeof [1,2,3] --- "object"
 typeof null -- "object"
 
 
-
+typeof typeof 100  -- "string"
 
 
 
