@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const btn1 = document.getElementById("btn-1");
-    btn1.addEventListener("click", () => {
-        hideSection1();
-    });
+    btn1.addEventListener("click", hideSection1);
 
     /* document.addEventListener("scroll", () => {
         alert("page scrolled");
