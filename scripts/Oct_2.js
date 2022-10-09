@@ -29,10 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // document.getElementById("h2-1").addEventListener("click", h2Fn, true);
 
-    document.getElementById("btn-anchor").addEventListener("click", () => {
+    const xyz = () => {
         const anchor = document.getElementById("anchor-1");
         anchor.setAttribute("href", "https://www.facebook.com");
-    });
+    };
+
+    document.getElementById("btn-anchor").addEventListener("click", xyz);
 
     const h1 = document.createElement("h1"); //create an element
     h1.setAttribute("title", "This is main heading");
