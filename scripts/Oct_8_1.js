@@ -1,4 +1,4 @@
-// CLosures
+// Closures
 
 const outerFn = () => {
     const firstName = "Vikas";
